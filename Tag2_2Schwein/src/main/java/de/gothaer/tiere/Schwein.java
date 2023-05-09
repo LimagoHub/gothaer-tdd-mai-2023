@@ -25,12 +25,15 @@ public class Schwein {
 
 
     public void setName(final String name) {
-        if(name == null || "Elsa".equalsIgnoreCase(name))
-            throw new IllegalArgumentException("Upps");
+        if(name == null )
+            throw new IllegalArgumentException("Name darf nicht null sein");
+
+        if("Elsa".equals(name) )
+            throw new IllegalArgumentException("Name darf nicht Elsa sein");
         this.name = name;
     }
 
-   
+
     public void fuettern() {
         setGewicht(getGewicht() + 1);
     }

@@ -17,7 +17,7 @@ class StapelTest {
 
     @Test
     @DisplayName("should return true when isEmpty called on empty Stapel")
-    void isEmpty_emptyStack_returnsTrue() {
+    void isEmpty_emptyStack_returnsTrue() {// welche Methode, welcher Fall, welche Erwartung
         // Arrange
 
 
