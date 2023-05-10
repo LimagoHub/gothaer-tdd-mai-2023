@@ -1,12 +1,15 @@
 package org.example;
 
 
+import lombok.RequiredArgsConstructor;
+
 import java.util.List;
 
+@RequiredArgsConstructor
 public class ComputerPlayer  {
 
     private static final int TURNS [] = {3,1,1,2};
-
+    private final Writer writer;
     /*
         wenn anzahl der Steine durch 4 einen Rest von 0 hat nimm 3 Steine
         wenn anzahl der Steine durch 4 einen Rest von 1 hat nimm 1 Steine
@@ -15,11 +18,8 @@ public class ComputerPlayer  {
      */
 
     public Integer doTurn(Integer stones) {
-
-
-
         int turn = TURNS[stones % 4];
-        System.out.println(String.format("Computer nimmt %s Steine.", turn));
+        writer.write(String.format("Computer nimmt %s Steine.", turn));
         return turn;
     }
 
