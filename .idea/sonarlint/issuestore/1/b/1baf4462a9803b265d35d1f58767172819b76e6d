@@ -1,0 +1,15 @@
+
+6
+java:S1170"!Make this final field static too.(Û›Îq
+6
+java:S1170"!Make this final field static too.(’÷œG
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Şş$
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Šë
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¿Å
+c	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İİ÷î
+Y
+java:S1117&"CRename "objectUnderTest" which hides the field declared at line 10.(‚Ğ¯í
+h	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¤Ãñÿÿÿÿÿ
+c	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÒ¸³
+b	java:S1008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æüıb
+h	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ³¹İûÿÿÿÿ
